@@ -1,4 +1,4 @@
-# TraversyPress UI
+# Gutenberg UI
 
 <img src="img/screen.png" alt="" />
 
