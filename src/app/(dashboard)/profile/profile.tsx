@@ -42,7 +42,7 @@ export default function Profile(params: User) {
     setSubmitting(true)
 
     try {
-      const res: Response = await fetch('http://localhost:8000/user/', {
+      const res: Response = await fetch('http://192.168.1.201:8000/user/', {
         cache: 'no-cache',
         method: 'POST',
         headers: {

@@ -19,7 +19,8 @@ export default async function Page() {
 
   console.log(`session: ${JSON.stringify(session)}`)
   console.log(`jwt: ${JSON.stringify(jwt)}`)
-  console.log(`decoded: ${JSON.stringify(decoded.payload.user)}`)
+  console.log(`user: ${JSON.parse(decoded.payload.user)}`)
+
   const preloadFormData = decoded.payload.user
 
   return (

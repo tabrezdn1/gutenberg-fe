@@ -21,7 +21,7 @@ export default function Register() {
     setSubmitting(true)
 
     try {
-      const res: Response = await fetch('http://localhost:8000/register/', {
+      const res: Response = await fetch('http://192.168.1.201:8000/register/', {
         cache: 'no-cache',
         method: 'POST',
         headers: {

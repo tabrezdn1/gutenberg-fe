@@ -9,7 +9,7 @@
     "lint": "next lint",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test": "start-server-and-test dev http://localhost:3000 cypress:run"
+    "test": "start-server-and-test dev http://192.168.1.201:3000 cypress:run"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
